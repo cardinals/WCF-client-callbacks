@@ -29,21 +29,6 @@ namespace WCFClient
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //basicHttpBinding绑定方式的通讯 单工  
-
-            //Service1Client host = new ServiceReference1.Service1Client();
-            //       string htime = host.GetSvrTime();//调用GetSvrTime获取到wcf服务器上的时间  
-            //      MessageBox.Show("basicHttpBinding" + "@" + htime);
-
-
-            //         //NetTcpBinding绑定方式的通讯 双工  
-
-            //IService1 m_Innerclient;
-            //ChannelFactory<IService1> m_ChannelFactory;
-            //NetTcpBinding binding = new NetTcpBinding();
-            //Uri baseAddress = new Uri(string.Format("net.tcp://{0}:{1}/WCFHostServer/Service1", textBox1.Text, textBox2.Text));
-            //m_ChannelFactory = new ChannelFactory<IService1>(binding, new EndpointAddress(baseAddress));
-            //m_Innerclient = m_ChannelFactory.CreateChannel();
 
         }
 
